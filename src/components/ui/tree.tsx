@@ -2,7 +2,7 @@ import React, { ReactElement, ReactNode } from "react";
 import * as AccordionPrimitive from "@radix-ui/react-accordion";
 import { ScrollArea } from "@/components/ui";
 import { ChevronRightIcon } from "@radix-ui/react-icons";
-import { cn, applyStylesToElement } from "@/lib/utils";
+import { cn, applyStylesToElement } from "@/utils/utils";
 // import useResizeObserver from "use-resize-observer";
 
 interface TreeDataItem {

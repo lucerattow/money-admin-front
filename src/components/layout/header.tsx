@@ -6,17 +6,17 @@ import {
   Typography,
 } from "@/components/ui";
 import { ProfileMenu } from "@/components/dropdown-menus";
-import { useAppStore } from "@/lib/context";
-import { getInitials } from "@/lib/functions";
+import { useAppStore } from "@/zustand";
+import { getInitials } from "@/utils/functions";
 import { Link } from "react-router-dom";
-import { routes } from '@/lib/constants/routes';
-import { cn } from "@/lib/utils";
+import { routes } from '@/utils/constants/routes';
+import { cn } from "@/utils/utils";
 
 interface HeaderProps {
   className?: string;
 }
 
-const Header = ({ className }: HeaderProps) => {
+export const Header = ({ className }: HeaderProps) => {
   const user = useAppStore((state) => state.user);
   return (
     <header className={cn(
@@ -45,5 +45,3 @@ const Header = ({ className }: HeaderProps) => {
     </header>
   );
 };
-
-export default Header;

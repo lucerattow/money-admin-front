@@ -1,7 +1,7 @@
 import React, { ReactNode, useState } from "react";
 import { Link } from "react-router-dom";
 import { Badge } from "@/components/ui";
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/utils";
 
 export interface INavbarItem {
   to?: string;

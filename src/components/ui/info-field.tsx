@@ -1,6 +1,6 @@
 import React from "react";
 import Typography from "./typography";
-import { cn } from "@/lib/utils";
+import { cn } from "@/utils/utils";
 
 export interface InfoFieldProps {
   className?: string;

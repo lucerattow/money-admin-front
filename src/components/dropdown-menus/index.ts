@@ -1,1 +1,1 @@
-export * from "./profile-menu";
+export * from "./ProfileMenu";

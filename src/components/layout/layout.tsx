@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import Header from "./header";
+import { Header } from "./";
 import { AppContainer } from "@/components/containers";
 
 interface LayoutProps {
